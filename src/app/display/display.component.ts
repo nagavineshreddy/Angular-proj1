@@ -13,6 +13,8 @@ export class DisplayComponent implements OnInit {
   }
 
   delete(obj){
+
+    
     // this.a.splice(this.a.indexOf(name),1);
     this.parentdata=this.parentdata.filter(s=>s.firstName!=obj.firstName);
   }
