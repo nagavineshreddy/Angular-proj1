@@ -1,0 +1,5 @@
+<p>display works!</p>
+<div *ngFor="let i of parentdata">
+    {{i.firstName}} {{i.lastName}}
+    <button class="btn btn-secondary" (click)="delete(i)">delete</button>
+</div>
